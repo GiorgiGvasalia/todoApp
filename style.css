@@ -1,14 +1,14 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: antiquewhite;
     align-items: center;
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: 'Lucida Sans', sans-serif;
+    font-family: "Lucida Sans", sans-serif;
     background-color: rgb(21, 190, 212);
     min-height: 100vh;
 }
@@ -34,11 +34,10 @@ form {
     outline: none;
     font-size: 1.2rem;
     background-color: oldlace;
-    border-radius: 10px ;
-
+    border-radius: 10px;
 }
 
-.input::placeholder{
+.input::placeholder {
     color: #b5b5b5;
 }
 
@@ -48,7 +47,6 @@ form {
     padding: 0;
     list-style-type: none;
     border-radius: 10px;
-
 }
 
 .todos li {
@@ -69,10 +67,10 @@ form {
 small {
     color: #dac6c6;
     margin-top: 2.7rem;
-    padding: 0.3rem
+    padding: 0.3rem;
 }
 
-footer{
+footer {
     position: absolute;
     bottom: 0;
     color: rgb(5, 5, 5);
@@ -81,19 +79,19 @@ footer{
 }
 
 @media only screen and (min-width: 350px) and (max-width: 600px) {
-    h1{
-        font-size: 2.5rem;
-        margin-top: 1rem;
-    }
+h1 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
 
-    form {
-        width: 320px;
-        height: 30px;
-        margin-top: 3rem;
-    }
+form {
+    width: 320px;
+    height: 30px;
+    margin-top: 3rem;
+}
 
-    small {
-        margin-left: 3.5rem;
-        margin-top: 4rem;
+small {
+    margin-left: 3.5rem;
+    margin-top: 4rem;
     }
 }
